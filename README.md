@@ -38,9 +38,15 @@ Then visit: http://localhost:8080
 
 ## Live site (GitHub Pages)
 
-1. Open **Settings → Pages** on the repo
-2. Under **Build and deployment → Source**, choose **GitHub Actions**
-3. After the workflow runs, visit: **https://lu3ky13.github.io/lu3ky13-portfolio/**
+The `gh-pages` branch is ready. **You must enable Pages once:**
+
+1. Open: https://github.com/Lu3ky13/lu3ky13-portfolio/settings/pages
+2. **Source:** Deploy from a branch
+3. **Branch:** `gh-pages` → **`/ (root)`** → **Save**
+
+Site URL: **https://lu3ky13.github.io/lu3ky13-portfolio/**
+
+See `DEPLOY.md` for full steps.
 
 ## Customize
 
