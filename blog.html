@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Lu3ky13</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="canvas-3d"></canvas>
+  <canvas id="matrix-rain"></canvas>
+  <div class="grid-floor"></div>
+  <div class="hud-corner hud-tl"></div>
+  <div class="hud-corner hud-tr"></div>
+  <div class="hud-corner hud-bl"></div>
+  <div class="hud-corner hud-br"></div>
+
+  <div class="content-wrap">
+    <nav>
+      <div class="inner">
+        <a href="index.html" class="logo"><span class="bracket">[</span><span class="handle">Lu3ky13</span><span class="blink">_</span><span class="bracket">]</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="findings.html">Profile</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container page-header">
+      <div class="section-header visible">
+        <div class="label">// blog</div>
+        <h1>Blog &amp; Write-ups</h1>
+        <p class="subtitle">
+          Public articles on
+          <a href="https://medium.com/@ahmadaabdulla" target="_blank" rel="noopener">Medium</a>
+          and posts on
+          <a href="https://x.com/lu3ky13" target="_blank" rel="noopener">X</a>
+        </p>
+      </div>
+
+      <article class="blog-item">
+        <span class="blog-date">Medium</span>
+        <div>
+          <h3><a href="https://medium.com/@ahmadaabdulla" target="_blank" rel="noopener">SQL Injection Payload Collection</a></h3>
+          <p>Custom SQLi payloads and WAF bypass techniques.</p>
+        </div>
+      </article>
+
+      <article class="blog-item">
+        <span class="blog-date">Medium</span>
+        <div>
+          <h3><a href="https://medium.com/@ahmadaabdulla" target="_blank" rel="noopener">How I Found 250 Bugs in One Subdomain</a></h3>
+          <p>Methodology for systematic subdomain testing — parameter discovery, automation, and manual validation.</p>
+        </div>
+      </article>
+
+      <article class="blog-item">
+        <span class="blog-date">CTF</span>
+        <div>
+          <h3><a href="https://forums.cybershieldctf.com" target="_blank" rel="noopener">Ghauri SQL Injection Extraction</a></h3>
+          <p>Using ghauri for automated database extraction after manual SQLi discovery.</p>
+        </div>
+      </article>
+
+      <article class="blog-item">
+        <span class="blog-date">X</span>
+        <div>
+          <h3><a href="https://x.com/lu3ky13" target="_blank" rel="noopener">XSS WAF &amp; Akamai Bypass Tips</a></h3>
+          <p>Public XSS bypass techniques shared on X.</p>
+        </div>
+      </article>
+
+      <article class="blog-item">
+        <span class="blog-date">H1</span>
+        <div>
+          <h3><a href="https://hackerone.com/lu3ky-13" target="_blank" rel="noopener">HackerOne Top 10 Injections &amp; XSS — Top 17 Reputation</a></h3>
+          <p>2022–2023 leaderboard recognition on HackerOne.</p>
+        </div>
+      </article>
+
+      <article class="blog-item">
+        <span class="blog-date">X</span>
+        <div>
+          <h3><a href="https://x.com/lu3ky13" target="_blank" rel="noopener">Bounty Chain: SQLi, XSS, CSRF, RCE</a></h3>
+          <p>How multiple vulnerability classes on one program escalated total payout.</p>
+        </div>
+      </article>
+
+      <article class="blog-item">
+        <span class="blog-date">X</span>
+        <div>
+          <h3><a href="https://x.com/lu3ky13" target="_blank" rel="noopener">Finding XSS and SQLi with Arjun</a></h3>
+          <p>Discover hidden parameters with Arjun for bug bounty hunting.</p>
+        </div>
+      </article>
+
+      <div class="card" style="margin-top: 2rem; opacity: 1; transform: none;">
+        <p>
+          <strong>Read more on Medium:</strong>
+          <a href="https://medium.com/@ahmadaabdulla" target="_blank" rel="noopener">medium.com/@ahmadaabdulla</a><br>
+          <strong>Daily tips on X:</strong>
+          <a href="https://x.com/lu3ky13" target="_blank" rel="noopener">@lu3ky13</a><br>
+          <strong>Training:</strong>
+          <a href="https://cybershield.krd" target="_blank" rel="noopener">cybershield.krd</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="container">
+      <p><a href="https://hackerone.com/lu3ky-13">HackerOne</a> · <a href="https://x.com/lu3ky13">X</a> · <a href="https://medium.com/@ahmadaabdulla">Medium</a></p>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/three-scene.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
