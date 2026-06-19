@@ -36,12 +36,11 @@ Then visit: http://localhost:8080
 - [Medium](https://medium.com/@ahmadaabdulla)
 - [CyberShield](https://cybershield.krd)
 
-## Deploy
+## Live site (GitHub Pages)
 
-Upload the `lu3ky13-site` folder to:
-- GitHub Pages
-- Netlify / Vercel (drag & drop)
-- Your domain (e.g. lu3ky13.com or cybershield.krd subdomain)
+1. Open **Settings → Pages** on the repo
+2. Under **Build and deployment → Source**, choose **GitHub Actions**
+3. After the workflow runs, visit: **https://lu3ky13.github.io/lu3ky13-portfolio/**
 
 ## Customize
 
