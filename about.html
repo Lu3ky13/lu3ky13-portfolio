@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Lu3ky13</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="canvas-3d"></canvas>
+  <canvas id="matrix-rain"></canvas>
+  <div class="grid-floor"></div>
+  <div class="hud-corner hud-tl"></div>
+  <div class="hud-corner hud-tr"></div>
+  <div class="hud-corner hud-bl"></div>
+  <div class="hud-corner hud-br"></div>
+
+  <div class="content-wrap">
+    <nav>
+      <div class="inner">
+        <a href="index.html" class="logo"><span class="bracket">[</span><span class="handle">Lu3ky13</span><span class="blink">_</span><span class="bracket">]</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="findings.html">Profile</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container page-header">
+      <div class="section-header visible">
+        <div class="label">// about_me</div>
+        <h1>About</h1>
+        <p class="subtitle">Who I am and what I do</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm <strong>Lu3ky13</strong> (Ahmad A Abdulla) — a penetration tester, bug bounty hunter,
+            and co-founder of <a href="https://cybershield.krd" target="_blank" rel="noopener">CyberShield</a>
+            and <a href="https://x.com/suly_con" target="_blank" rel="noopener">@suly_con</a>.
+            Based in Kurdistan, I hunt vulnerabilities on HackerOne and help organizations harden their attack surface.
+          </p>
+          <p>
+            My work spans web application security (SQL injection, XSS, CSRF), API security (IDOR/BOLA, SSRF),
+            cloud and endpoint agent research, memory forensics, and red team operations.
+            I've been recognized on HackerOne's reputation leaderboard during 2022–2023.
+          </p>
+          <p>
+            I share techniques on <a href="https://x.com/lu3ky13" target="_blank" rel="noopener">X</a> and
+            <a href="https://medium.com/@ahmadaabdulla" target="_blank" rel="noopener">Medium</a>,
+            and teach through <a href="https://cybershield.krd" target="_blank" rel="noopener">cybershield.krd</a>
+            and CyberShield CTF platforms.
+          </p>
+          <div class="section-header visible" style="margin-top: 2rem;">
+            <div class="label">// connect</div>
+            <h2 style="font-size: 1.25rem;">Connect</h2>
+          </div>
+          <div class="social-row" style="justify-content: flex-start; margin-top: 1rem;">
+            <a href="https://hackerone.com/lu3ky-13" target="_blank" rel="noopener" class="social-btn">HackerOne Profile</a>
+            <a href="https://x.com/lu3ky13" target="_blank" rel="noopener" class="social-btn">@lu3ky13</a>
+            <a href="https://www.linkedin.com/in/lu3ky13/" target="_blank" rel="noopener" class="social-btn">LinkedIn</a>
+            <a href="https://medium.com/@ahmadaabdulla" target="_blank" rel="noopener" class="social-btn">Medium</a>
+          </div>
+        </div>
+        <div>
+          <div class="section-header visible">
+            <div class="label">// certs</div>
+            <h2 style="font-size: 1.25rem; margin-bottom: 1rem;">Certifications</h2>
+          </div>
+          <div class="cert-grid">
+            <span class="cert">OSCP</span>
+            <span class="cert">CRTO</span>
+            <span class="cert">CRTeamer</span>
+            <span class="cert">EWPT</span>
+            <span class="cert">ECCPT</span>
+            <span class="cert">C-APIPen</span>
+            <span class="cert">CAPen</span>
+            <span class="cert">CAPenX</span>
+            <span class="cert">CNPen</span>
+            <span class="cert">CCSP-AWS</span>
+            <span class="cert">CCNA</span>
+            <span class="cert">HTB PRO</span>
+            <span class="cert">PT1</span>
+            <span class="cert">B.S. Accounting</span>
+          </div>
+          <div class="section-header visible" style="margin: 2rem 0 1rem;">
+            <div class="label">// skills</div>
+            <h2 style="font-size: 1.25rem;">Focus Areas</h2>
+          </div>
+          <div class="cert-grid">
+            <span class="cert">Bug Bounty</span>
+            <span class="cert">API Security</span>
+            <span class="cert">IDOR / BOLA</span>
+            <span class="cert">SSRF</span>
+            <span class="cert">RCE</span>
+            <span class="cert">Memory Forensics</span>
+            <span class="cert">Red Team</span>
+            <span class="cert">WAF Bypass</span>
+            <span class="cert">Automation</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <p>
+        <a href="https://hackerone.com/lu3ky-13">HackerOne</a>
+        <a href="https://x.com/lu3ky13">X</a>
+        <a href="https://www.linkedin.com/in/lu3ky13/">LinkedIn</a>
+        <a href="https://medium.com/@ahmadaabdulla">Medium</a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/three-scene.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
