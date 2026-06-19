@@ -1,0 +1,55 @@
+# lu3ky13-portfolio
+
+Personal 3D cybersecurity portfolio for Lu3ky13 — bug bounty hunter & penetration tester.
+
+## Open locally
+
+```cmd
+cd c:\Users\jrt\Downloads\JS_Scraper\lu3ky13-site
+start index.html
+```
+
+Or serve with Python:
+
+```cmd
+cd c:\Users\jrt\Downloads\JS_Scraper\lu3ky13-site
+python -m http.server 8080
+```
+
+Then visit: http://localhost:8080
+
+## Pages
+
+| File | Description |
+|------|-------------|
+| `index.html` | Home — hero, stats, featured findings |
+| `about.html` | Bio, certs, social links |
+| `findings.html` | All security findings index |
+| `blog.html` | Medium/X articles + local write-ups |
+| `findings/*.html` | Individual vulnerability write-ups |
+
+## Your profiles (linked throughout)
+
+- [HackerOne](https://hackerone.com/lu3ky-13)
+- [X / Twitter](https://x.com/lu3ky13)
+- [LinkedIn](https://www.linkedin.com/in/lu3ky13/)
+- [Medium](https://medium.com/@ahmadaabdulla)
+- [CyberShield](https://cybershield.krd)
+
+## Live site (GitHub Pages)
+
+The `gh-pages` branch is ready. **You must enable Pages once:**
+
+1. Open: https://github.com/Lu3ky13/lu3ky13-portfolio/settings/pages
+2. **Source:** Deploy from a branch
+3. **Branch:** `gh-pages` → **`/ (root)`** → **Save**
+
+Site URL: **https://lu3ky13.github.io/lu3ky13-portfolio/**
+
+See `DEPLOY.md` for full steps.
+
+## Customize
+
+- Edit stats/numbers in `index.html`
+- Add new findings to `findings.html` + create `findings/your-finding.html`
+- Add blog posts to `blog.html` with Medium links
